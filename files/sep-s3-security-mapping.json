@@ -1,0 +1,16 @@
+{
+  "mappings": [ 
+    {
+      "prefix": "s3://sb-max-fomenko/DataLake/starburst_data_catalog/s3_security_mapping_schema_1/",
+      "customCredentialProviderClass": "com.starburst.custom.DellECSAwsCredentialsProviders$DellECSAwsCredentialsProviderBucketA"
+    },
+    {
+      "prefix": "s3://sb-max-fomenko/DataLake/starburst_data_catalog/s3_security_mapping_schema_2/",
+      "customCredentialProviderClass": "com.starburst.custom.DellECSAwsCredentialsProviders$DellECSAwsCredentialsProviderBucketB"
+    },
+    {
+      "prefix": "s3://sb-max-fomenko/DataLake/",
+      "customCredentialProviderClass": "com.starburst.custom.DellECSAwsCredentialsProviders$DellECSAwsCredentialsProviderBucketA"
+    }
+  ]
+}
